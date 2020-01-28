@@ -1,0 +1,21 @@
+{
+   "title": "Ethos",
+   "ethosGallery": [{
+     "number": "01",
+     "title": "React Context",
+     "text": "For global styles.",
+     "image": "../images/ethosGallery/ruler.jpg"
+   },
+   {
+     "number": "02",
+     "title": "Page Transitions",
+     "copy": "Component-based for easy usage.",
+     "image": "../images/ethosGallery/sparkler.jpg"
+   },
+   {
+     "number": "03",
+     "title": "Intersection Observer",
+     "copy": "Including a polyfill for Safari.",
+     "image": "../images/ethosGallery/pingpong.jpg"
+   }]
+}

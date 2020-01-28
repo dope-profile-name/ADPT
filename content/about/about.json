@@ -1,0 +1,14 @@
+{
+  "title": "About",
+  "content": "aboutPg.md",
+  "aboutGallery": [{
+    "title": "React Context",
+    "copy": "For global styles.",
+    "image": "../images/aboutGallery/glasses.jpg"
+  },
+  {
+    "title": "Page Transitions",
+    "copy": "Component-based for easy usage.",
+    "image": "../images/aboutGallery/ruler.jpg"
+  }]
+}
