@@ -87,7 +87,12 @@ const Container = styled.div`
 
 const ScrollingHero = (props) => (
    <Container height={props.height}>
-      {props.children}
+      <h1 className="scroll-content">
+         <span>{props.bannerText}&nbsp;—&nbsp;</span>
+         <span>{props.bannerText}&nbsp;—&nbsp;</span>
+         <span>{props.bannerText}&nbsp;—&nbsp;</span>
+         <span>{props.bannerText}&nbsp;—&nbsp;</span>
+      </h1>
    </Container>
 )
 

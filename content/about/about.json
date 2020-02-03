@@ -1,14 +1,10 @@
 {
   "title": "About",
+  "section": "Profile",
+  "header": "Digital minded branding consultancy",
   "content": "aboutPg.md",
-  "aboutGallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/aboutGallery/glasses.jpg"
-  },
-  {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/aboutGallery/ruler.jpg"
-  }]
+  "address": "address.md",
+  "section2": "Offices",
+  "header2": "Digital minded branding consultancy",
+  "image": "../images/aboutGallery/atlanta_rs.jpg"
 }

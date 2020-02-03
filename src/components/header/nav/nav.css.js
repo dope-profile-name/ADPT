@@ -8,7 +8,6 @@ export const Container = styled.nav`
     padding: 0;
 
     li {
-       font: 2.4rem Ubuntu Condensed;
        text-decoration: none;
 
       & + li {

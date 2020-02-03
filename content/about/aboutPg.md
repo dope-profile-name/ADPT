@@ -1,7 +1,3 @@
----
-path: "/about"
-title: "About"
-date: "2018-04-09"
-author: "Jake Baker"
----
-content for about page
+Beaubourg was born in 2014 from the association of Mickael Tsakiris and Sylvain Capeyron. In a rapidly changing market of digital studios and agencies, the atypical nature of this duo (strategy + design) has enabled it from the outset to envisage projects from a new creative angle: starting with the brand and bringing out its truth through design, considering digital touchpoints a high-priority.  The arrival of Rémy Blamaud (formerly Octave & Octave) as Lead Developer has enabled Beaubourg to take the vision initiated by Sylvain and Mickael a step further, by adding the technical scope of the projects. 
+
+Today, we are a team of 5 articulated around 2 partners with complementary profiles and experiences validated in agencies and within brands. A growing consultancy that teams up with brands and takes charge of their projects as a whole, without having to outsource a key skill or know-how. This approach allows us to guarantee a high level of quality to the deliverables we produce for our customers.

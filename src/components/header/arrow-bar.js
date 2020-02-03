@@ -33,10 +33,9 @@ const AnimeBar = styled(Link)`
   color: ${props => props.white ? 'white' : 'black'};
   font: ${props =>props.section ? 'bold 6rem Montserrat' :
          'bold 1.5rem Montserrat'};
-  margin-top: ${props =>props.section ? '7.2rem' :
-                '0'};
+  margin-top: ${props =>props.marginTop};
   display: flex;
-  padding: 2rem 0rem;
+  padding: 4.5rem 0rem;
   justify-content: space-between;
   text-decoration: none;
   border-top: ${props => props.white ? '1px solid white' : '1px solid black'};
@@ -50,7 +49,8 @@ const AnimeBar = styled(Link)`
 const ArrowBar = (props) => (
      <AnimeBar white={props.white} section={props.section} style={props.style}  to={props.to} >
      {props.linktext}
-         <TiArrowRight class="animated-arrow" style={{display:`inline-block`, fontSize:`1rem`}}/>
+         <TiArrowRight class="animated-arrow" style={{display:`inline-block`}}
+            size="30px"/>
      </AnimeBar>
 );
 

@@ -12,7 +12,7 @@ const Item = ({ title, copy, image }) => (
          margin: `0 1rem`,
          transition: `display 1s` }}/>
       <figure style={{display: `inline-block`}}>
-        <Title style={{display: `inline-block`}}>{title} —&nbsp;</Title>
+        <Title style={{display: `inline-block`}}>{title}</Title>
         <Copy style={{display: `inline-block`}}>{copy}</Copy>
       </figure>
     </AnimatedContainer>

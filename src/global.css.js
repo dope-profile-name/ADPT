@@ -88,12 +88,18 @@ html, body, div, span, applet, object, iframe,
   }
 
   h2 {
-     font-size: 5.4rem;
+     font-size: 6rem;
      font-weight: bold;
+     line-height: 7.5rem;
   }
 
   h4 {
      font-size: 2.7rem;
+     font-weight: bold;
+  }
+
+  h5 {
+     font-size: 1.5rem;
      font-weight: bold;
   }
 

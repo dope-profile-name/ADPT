@@ -2,20 +2,32 @@
    "title": "Ethos",
    "ethosGallery": [{
      "number": "01",
-     "title": "React Context",
-     "text": "For global styles.",
-     "image": "../images/ethosGallery/ruler.jpg"
+     "title": "Digital minded branding consultancy",
+     "text": "We always start a project with a thorough analysis of what constitutes the DNA of your brand. Observe, listen, and question to understand. Bringing to light what makes you unique and cultivate your difference. To lay the foundations for a real reference base that can serve as a creative compass, a guide for discourse and a starting point for image strategy. Subsequently, this work is translated into a strong visual identity, the design of relevant communication media, and the production of content capable of establishing a lasting distinctive image on your market.",
+     "image": "../images/ethosGallery/pingpong.jpg"
    },
    {
      "number": "02",
-     "title": "Page Transitions",
-     "copy": "Component-based for easy usage.",
-     "image": "../images/ethosGallery/sparkler.jpg"
+     "title": "Simple is sublime",
+     "text": "The more complex communication ecosystems become, the more we have to strive for things that are strong, obvious and essentials. Our creative process is reductive. It consists in progressively getting rid of everything extraneous and cut to the essence of things. This has nothing to do with what we can add, but what we can get rid of. We start with a lot, and finish with little. Less but better, as Dieter Rams once said. For us, simplicity is an important step in creating permanent value, immune to the passing of time, fashions and trends.",
+     "image": "../images/ethosGallery/atob.jpg"
    },
    {
      "number": "03",
-     "title": "Intersection Observer",
-     "copy": "Including a polyfill for Safari.",
-     "image": "../images/ethosGallery/pingpong.jpg"
-   }]
+     "title": "Emotion is a sparkle",
+     "text": "Yes, design should be intelligent, functional yet meaningful. But above all it must awaken a spontaneous and sincere emotion. Brands are like people: only those that really touch us count. Surprising your targets with inspiring content and unique experiences creates vivid memories. Our job is to help you forge that emotional bond by igniting that spark of curiosity in the eyes of those to whom your brand is addressed. By making your brand more desirable, we initiate a virtuous dynamic: notoriety, recognition, and eventually attachment.",
+     "image": "../images/ethosGallery/sparkler.jpg"
+   },
+   {
+     "number": "04",
+     "title": "Nothing compares to tailor-made solutions",
+     "text": "Whether it is an interface, a print object or a photographic production, we pay particular attention to all the details that make the difference between a well executed deliverable and a remarkable experience. As creative and committed partners at your side, we design tailor-made solutions adapted to your brand, your teams and your ambition. This artisanal approach to our profession pushes us to constantly innovate, by applying the highest creative and technical standards, whatever the subject we are consulted on.",
+     "image": "../images/ethosGallery/ruler.jpg"
+  },
+  {
+    "number": "05",
+    "title": "Content is (still) King",
+    "text": "More than ever, contents are the fuel for brand visibility and the raw material for inviting us into their universe. In the era of social competition, producing and diffusing quality contents is crucial to building a truly memorable brand experience and enter peoples lives. Creative, generous and adapted, these contents must testify to the quality of the products or services that the brand offers. They also prove your ability to inspire the world and bring people together around an original vision.",
+    "image": "../images/ethosGallery/glasses.jpg"
+  }]
 }

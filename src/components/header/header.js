@@ -25,12 +25,12 @@ const AnimatedContainer = posed.div({
 //Styled component
 const Container = styled.header`
   color: ${props => props.color};
-  border-top: 10px solid ${props => props.color};
+  border-top: 12px solid ${props => props.color};
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 4rem;
-  padding: 2rem 0rem;
+  margin: 0rem 3rem 3rem;
+  padding: .3rem 0rem 3rem;
 
   a {
      text-decoration: none;

@@ -15,17 +15,10 @@ import services from 'images/services.jpg';
 
 const About = ({ data }) => (
    <Layout color="white" bgColor="#E9846F">
-      <ScrollingHero height="85vh">
-         <h1 className="scroll-content">
-            <span>—&nbsp;About&nbsp;</span>
-            <span>—&nbsp;About&nbsp;</span>
-            <span className="delayed">—&nbsp;About&nbsp;</span>
-            <span className="delayed">—&nbsp;About&nbsp;</span>
-         </h1>
-      </ScrollingHero>
+      <ScrollingHero height="85vh" bannerText={data.aboutJson.title} />
 
       <Box white>
-         <Text as="h4" font="bold 1.5rem Montserrat"
+         <Text as="h5"
             style={{borderTop: `1px solid white`, padding: `2rem 0rem`}}>
          Profile</Text>
 
@@ -57,7 +50,7 @@ const About = ({ data }) => (
       </Box>
 
       <Box white>
-         <Text as="h4" font="bold 1.5rem Montserrat"
+         <Text as="h5"
             style={{borderTop: `1px solid white`}}>
          Offices</Text>
 
@@ -65,19 +58,17 @@ const About = ({ data }) => (
          Our offices are located in Midtown, Atlanta. Stop by and say hi!</Text>
 
          <AbInLay display="grid" nColumns="2" gridGap="4rem">
-            <div><Img fluid={data.atlanta.childImageSharp.fluid} alt="atlanta" /></div>
+            <div style={{marginBottom: `12rem`}}><Img fluid={data.aboutJson.image.childImageSharp.fluid} alt="atlanta" /></div>
 
-            <div style={{borderTop: `6px solid white`, display:`flex`, flexDirection: `column`, font: `2.7rem Ubuntu`,
-               paddingTop: `3.6rem`, paddingBottom: `6rem`, lineHeight: `3.9rem`, position: `relative`}}>
-               <div style={{marginBottom: `.6rem`}}>
-                  <div style={{marginBottom: `.3rem`}}>36, boulevard de la Bastille</div>
-                  <div>75012, Paris</div>
-                  <div style={{marginBottom: `.3rem`}}>view on google maps</div>
-                  <div style={{marginBottom: `7.2rem`}}>T. +33 (6) 12 15 37 76</div>
+            <div style={{borderTop: `3px solid white`, display:`flex`, flexDirection: `column`}}>
+               <Text as="p">
+                  <span>36, boulevard de la Bastille</span><br/>
+                  <span>75012, Paris</span><br/>
+                  <a href="www.google.com">view on google maps</a><br/>
+                  <span>T. +33 (6) 12 15 37 76</span>
+               </Text>
 
-               </div>
-
-               <div style={{position: `absolute`, bottom: `4.5%`, width: `100%`, display: `block`, borderBottom: `2px solid white`}}>
+               <div style={{marginBottom: `15rem`, width: `100%`, display: `block`, borderBottom: `2px solid white`}}>
                   <ArrowBar white to="/about" linktext="Instagram" style={{font: `1.8rem Montserrat`, padding:`.3rem 0rem`}} />
                   <ArrowBar white to="/about" linktext="Twitter" style={{font: `1.8rem Montserrat`, padding:`.3rem 0rem`}} />
                   <ArrowBar white to="/about" linktext="Facebook" style={{font: `1.8rem Montserrat`, padding:`.3rem 0rem`}} />
@@ -88,8 +79,8 @@ const About = ({ data }) => (
 
       <CFooter white />
 
-      <Parallax bgImg={services} style={{height:`100vh`}}>
-        <Box style={{background: `transparent`}}>
+      <Parallax bgImg={services} style={{height: `100vh`}}>
+        <Box style={{background: `transparent`}} >
            <ArrowBar white section to='/about' linktext="Services"
               style={{font: `bold 6rem Montserrat`, marginTop: `9rem`, textShadow: `0px 1px 2px black`}}/>
         </Box>
@@ -112,16 +103,23 @@ export const query = graphql`
       content {
         childMarkdownRemark {
           html
+          rawMarkdownBody
         }
       }
-    }
-    atlanta: file(relativePath: {eq: "images/aboutGallery/atlanta_rs.jpg"}) {
-       id
-       childImageSharp {
-         fluid(maxHeight: 360, quality: 90) {
-           ...GatsbyImageSharpFluid_withWebp
+      address {
+        childMarkdownRemark {
+          html
+          rawMarkdownBody
+        }
+      }
+      image {
+         childImageSharp {
+            fluid(maxWidth: 400, quality: 90) {
+               ...GatsbyImageSharpFluid_withWebp
+            }
          }
-       }
+      }
     }
+
   }
 `;
